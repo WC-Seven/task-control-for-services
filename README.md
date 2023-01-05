@@ -14,16 +14,24 @@ Video de referência [RocketSet](https://www.youtube.com/watch?v=DtFnUvm3xeU&lis
 
 Primeiro faça o clone:
 ```bash
-  git clone
+  git clone https://github.com/WC-Seven/task-control-for-services.git
 ```
+
+### Depois faça os comando a baixo para instalar as dependências da aplicação
 
 ```bash
-npm run dev
+npm i
 # or
-yarn dev
+yarn
+```
+### Então poderá rodar a aplicação do em seu ambiente
+```bash
+npx expo start
+# or
+expo start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Irá gerar um QRcode para fazer a leitura em seu aparelho celular, *Terá que ter o APlicativo da EXPO GO em seu aparelho*.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
@@ -33,16 +41,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Expo, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [EXPO ROUTER Documentation](https://expo.github.io/router/docs/) - learn about Expo features.
+- [EXPO Documentation](https://docs.expo.dev/).
 
